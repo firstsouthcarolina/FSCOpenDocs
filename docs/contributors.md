@@ -56,7 +56,7 @@ This documentation is built and maintained by the students, mentors, and alumni 
 -   <img src="https://github.com/hjmcphail76.png" width="50" style="border-radius: 50%; vertical-align: middle; margin-right: 10px;"> **[Harrison](https://github.com/hjmcphail76)**
     
     ---
-    Driver, CAD, and Code.
+    FRC 8575 technical lead, programer, CAD designer, and driver.
 
 </div>
 
