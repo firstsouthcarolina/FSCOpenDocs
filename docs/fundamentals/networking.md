@@ -4,7 +4,7 @@ icon: lucide/network
 
 # Networking
 
-In FRC, your Robot Radio, RoboRIO, and Coprocessors all communicate over a local network.
+In FRC, your robot's radio, robot controller (Systemcore or RoboRIO), coprocessors, and driver's station all communicate over a local network.
 
 # FRC Team Networking & IP Schema
 
