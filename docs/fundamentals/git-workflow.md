@@ -10,7 +10,7 @@ However, if used incorrectly, it can cause a **"Gitastrophe"** (like deleting th
 
 !!! tip "Git vs. GitHub"
     **Git** is the program on your computer that tracks changes. 
-    **GitHub** is the website where we store our Git repositories so everyone can access them.
+    **GitHub** is the website where most people store Git repositories to allow others to access them.
 
 ---
 
