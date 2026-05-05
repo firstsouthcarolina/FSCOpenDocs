@@ -27,7 +27,7 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 ### Tools & Software
 
 - Driver Station — The official app used during competition or testing to enable the robot, run programs, and view logs.
-- Shuffleboard / SmartDashboard — Dashboard tools for telemetry, debugging, and operator interfaces.
+- Shuffleboard / SmartDashboard / Elastic — Dashboard tools for telemetry, debugging, and operator interfaces.
 
 ### Hardware & Controllers
 
@@ -40,9 +40,9 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 - Command-based programming — A high-level structure provided by WPILib that separates robot behavior into "commands" and reusable "subsystems." It helps organize complex behaviors and simplifies scheduling.
 - Iterative robot — A loop-based structure that runs periodic methods each robot cycle.
 - Feedforward vs Feedback:
-	- Feedforward — Predictive control using a mathematical model (for example, kV and kA) to calculate motor outputs.
+	- Feedforward — Predictive control using a mathematical model (for example, kV, kS, and kA) to calculate motor outputs.
 	- PID — A closed-loop control strategy that uses a feedback sensor and a setpoint to gain precise, repeatable control of mechanisms.
-	- PIDF — PID with an added feedforward term to improve tracking of dynamic setpoints.
+	- PIDF — PID with added feedforward terms.
 
 ### Sensors & Perception
 
@@ -74,8 +74,8 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 ### Motion & Path Planning
 
 - Trajectory generation — Creating time-parameterized paths for the robot to follow during autonomous periods.
-- Ramsete / PID controllers — Controllers used to follow trajectories (Ramsete is commonly used for differential drive robots).
-- Odometry — Tracking robot pose (position and heading) over time using encoders and IMU data.
+- PathPlanner/Choreo - Popular trajectory generation tools that allow for easy auto creation.
+- Odometry — Tracking robot pose (position and heading) over time using encoders and IMU data. Data can be added from vison systems as well to prevent drift.
 
 ### Build & Deployment
 
