@@ -49,7 +49,7 @@ This documentation is built and maintained by the students, mentors, and alumni 
 
 ---
 
-##[Team 8575 - The Due Westerners](https://github.com/duewesternersprogramming)
+## [Team 8575 - The Due Westerners](https://github.com/duewesternersprogramming)
 
 <div class="grid cards" markdown>
 
@@ -75,7 +75,7 @@ This documentation is built and maintained by the students, mentors, and alumni 
 
 ---
 
-##[Team 10619 - Rana's Rivets](https://github.com/frc-10619)
+## [Team 10619 - Rana's Rivets](https://github.com/frc-10619)
 
 <div class="grid cards" markdown>
 
