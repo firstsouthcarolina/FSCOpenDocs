@@ -11,7 +11,10 @@ To collaborate with your team, you need to configure Git on your computer and co
 If you don't have one, go to [GitHub.com](https://github.com/) and create an account. 
 
 !!! tip "GitHub Student Developer Pack"
-    Use your school email to sign up for the [Student Developer Pack](https://education.github.com/pack). It gives you free access to GitHub Pro, Copilot, and premium developer tools while you are a student!
+    Use your school email and school ID to sign up for the [Student Developer Pack](https://education.github.com/pack). It gives you free access to GitHub Pro and other premium developer tools while you are a student!
+
+!!! tip "GitHub for Nonprofits Plan"
+    If your team is contained within a nonprofit organization, you are eligible for the [GitHub for Nonprofits plan](https://nonprofits.github.com/getting-started). It gives you access to a free GitHub Team plan, discounts on other plans, and more!
 
 ## 2. Install Git
 Even if you use visual tools later, you must install the core Git engine so your code editors (like WPILib VS Code) can track changes.

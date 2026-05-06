@@ -49,7 +49,7 @@ This documentation is built and maintained by the students, mentors, and alumni 
 
 ---
 
-##[Team 8575 - The Due Westerners](https://github.com/duewesternersprogramming)
+## [Team 8575 - The Due Westerners](https://github.com/duewesternersprogramming)
 
 <div class="grid cards" markdown>
 
@@ -62,20 +62,20 @@ This documentation is built and maintained by the students, mentors, and alumni 
 
 ---
 
-## [Team 9496 - Lynk](https://github.com/lynkrobotics)
+## [Team 9496 - LYNK](https://github.com/lynkrobotics)
 
 <div class="grid cards" markdown>
 
 -   <img src="https://github.com/witherslayer67.png" width="50" style="border-radius: 50%; vertical-align: middle; margin-right: 10px;"> **[Jimmy](https://github.com/witherslayer67)**
     
     ---
-    FIRST Alumni and SC Volunteer.
+    FIRST Alumni, Mentor and SC Volunteer.
 
 </div>
 
 ---
 
-##[Team 10619 - Rana's Rivets](https://github.com/frc-10619)
+## [Team 10619 - Rana's Rivets](https://github.com/frc-10619)
 
 <div class="grid cards" markdown>
 

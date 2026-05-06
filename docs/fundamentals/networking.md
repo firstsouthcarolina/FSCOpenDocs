@@ -4,7 +4,7 @@ icon: lucide/network
 
 # Networking
 
-In FRC, your Robot Radio, RoboRIO, and Coprocessors all communicate over a local network.
+In FRC, your robot's radio, robot controller (Systemcore or RoboRIO), coprocessors, and driver's station all communicate over a local network.
 
 # FRC Team Networking & IP Schema
 
@@ -120,3 +120,7 @@ While the USB tether is a great fallback, it has several limitations:
 While configuring static IPs is incredibly useful for network stability and troubleshooting at competition, modern FRC control systems utilize mDNS (Multicast DNS). 
 
 If you are typing an address into a browser or SSH client to reach your roboRIO, simply typing `roborio-[TEAM]-FRC.local` (e.g., `roborio-254-FRC.local`) will usually find the robot dynamically without needing to worry about IPv4 subnets and octets.
+
+# On the Field
+
+On the field and during competition, you will *not* connect to your robot directly over ethernet/wi-fi or the USB port. Instead, you will connect your driver's station to the field ethernet, and your robot (when powered on) will automatically connect to the field network wirelessly. This system is called the **FMS**, or Field Management System.

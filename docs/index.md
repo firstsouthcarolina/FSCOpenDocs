@@ -4,7 +4,7 @@ icon: lucide/home
 
 # FSC Open Docs
 
-Welcome to the **FSC Open Docs**. This documentation is a collaborative effort to bring every programming student in South Carolina up to speed on modern FRC software development. 
+Welcome to the **FSC Open Docs**. This documentation is a collaborative effort to bring every programming student in South Carolina up to speed on modern FRC software development, and to get inexperienced robotics teams familiar with programming with FRC tooling. 
 
 !!! note "Our Mission"
     This curriculum is designed to be **agnostic of specific team libraries**. We focus purely on Java fundamentals, Git workflows, networking, Linux environments, and standard WPILib practices. 
