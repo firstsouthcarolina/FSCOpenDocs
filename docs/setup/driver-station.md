@@ -33,6 +33,7 @@ Install **only** what you need to run the robot and diagnose issues in the pit. 
 
 ### 4. System Settings to Change
 * **Disable Windows Updates:** Pause them for the maximum allowed time before your event.
+* **Disable Windows Defender / Security:** Turning this off can prevent issues when connecting to the field, robot, coprocessors, etc.
 * **Disable Sleep/Hibernate:** Set "When lid is closed" to "Do Nothing." You don't want the laptop going to sleep while you are carrying it to the field!
 * **Disable Bluetooth & Wi-Fi:** When plugging into the FMS ethernet tether, turn off your Wi-Fi and Bluetooth to prevent packet interference.
 
