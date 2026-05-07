@@ -59,7 +59,7 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 
 - IMU (Inertial Measurement Unit) - Provides orientation (yaw, pitch, roll) as well as acceleration.
 - Vision systems:
-	- Limelight - An out of the box vision solution, single camera.
+	- Limelight - An out of the box proprietary vision solution, single camera. It is included on the Systemcore firmware.
 	- PhotonVision - An open-source vision tool, can use multiple cameras for less overhead cost. More options for custimization. 
 
 ### Networking & Telemetry
