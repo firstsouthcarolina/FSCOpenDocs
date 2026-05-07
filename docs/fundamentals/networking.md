@@ -34,7 +34,7 @@ Understanding how to convert your team number into this IP address is crucial fo
     const resultsDiv = document.getElementById('frcResults');
 
     // Hide if empty or invalid
-    if (!inputVal || inputVal <= 0 || inputVal >= 100000) {
+    if (!inputVal || inputVal <= 0 || inputVal >= 25599) {
       resultsDiv.style.display = 'none';
       return;
     }
@@ -70,6 +70,7 @@ Instead of treating the team number like a string of text and worrying about lea
 2. **Octet 3:** Take the remainder of your team number divided by `100` (modulo).
 
 This mathematical rule automatically scales perfectly across 1-digit, 4-digit, and 5-digit team numbers.
+The maximum team number using this current system is `25599`.
 
 ### Examples by Team Length
 

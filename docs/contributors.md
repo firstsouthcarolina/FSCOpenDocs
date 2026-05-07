@@ -47,6 +47,15 @@ This documentation is built and maintained by the students, mentors, and alumni 
 
 </div>
 
+<div class="grid cards" markdown>
+
+-   <img src="https://github.com/frc4533-lincoln.png" width="50" style="border-radius: 50%; vertical-align: middle; margin-right: 10px;"> **[Lincoln](https://github.com/frc4533-lincoln)**
+    
+    ---
+    Former Lead (Vision) Programmer. Alumni. Creator of [Chalkydri](https://github.com/chalkydri/chalkydri) and shiller of Rust.
+
+</div>
+
 ---
 
 ## [Team 8575 - The Due Westerners](https://github.com/duewesternersprogramming)
