@@ -30,7 +30,7 @@ This documentation is built and maintained by the students, mentors, and alumni 
 -   <img src="https://github.com/judsonjames.png" width="50" style="border-radius: 50%; vertical-align: middle; margin-right: 10px;"> **[Judson](https://github.com/judsonjames)**
     
     ---
-    CSA, Mentor, and Java/Architecture Wizard.
+    Alumni, Mentor, Control Systems Advisor (CSA), and Java/Architecture Wizard. Works on various FOSS FRC Software Solutions.
 
 </div>
 
