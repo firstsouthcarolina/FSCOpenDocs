@@ -25,7 +25,7 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 ### Tools & Software
 
 - Driver Station - The official app used during competition or testing to enable the robot, run programs, and view logs.
-- Shuffleboard / SmartDashboard / Elastic - Dashboard tools for telemetry, debugging, and operator interfaces.
+- Elastic / Advantagescope - Dashboard tools for telemetry, debugging, and operator interfaces.
 
 ### Hardware & Controllers
 
