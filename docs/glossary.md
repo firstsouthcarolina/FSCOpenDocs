@@ -9,18 +9,17 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 
 ### Acronyms
 
-- WPILib - The primary robotics library used in FRC. Provides hardware interfaces, control loops, kinematics, simulation helpers, and more.
-- PID - Proportional–Integral–Derivative controller. A common feedback loop used to control motors and mechanisms.
-- CAN - Controller Area Network. A robust bus protocol used for communication between motor controllers, sensors, and other devices on the robot.
-- PWM - Pulse Width Modulation. A signal used to control legacy motor controllers and servos.
-- UDP / TCP - Networking protocols often used for telemetry, vision data, or dashboard communication.
+- WPILib (Official definition) —  The WPI Robotics Library (WPILib) is the standard software library provided for teams to write code for their FRC® robots. WPILib contains a set of useful classes and subroutines for interfacing with various parts of the FRC control system (such as sensors, motor controllers, and the driver station), as well as an assortment of other utility functions.
 
-### Libraries & Frameworks
 
-- WPILib - The official library maintained by FIRST. Includes the command-based framework, hardware abstraction, simulation tools, and extensive documentation.
-	- Language support: Java and C++ are the primary languages; Python is supported via RobotPy.
-- RobotPy - Python ports of WPILib APIs. Useful for teams who prefer Python for quick development or education.
-- Vendor libraries - Vendor specific APIs that allow your code to communicate with specific vendor's devices in an abstract way. These are specific to each season, and your code will need to be updated in case of changes/deprecations.
+- CAN — Controller Area Network. A robust bus protocol used for communication between motor controllers, sensors, and other devices on the robot.
+- PWM — Pulse Width Modulation. A signal used to control legacy motor controllers and servos.
+- UDP / TCP — Networking protocols often used for telemetry, vision data, or dashboard communication.
+
+### Vendor libraries
+- CTRE Phoenix — Libraries for CTRE hardware such as Talon FX and Talon FXS motor controllers.
+- REVLib — For Spark MAX motor controllers
+- Kauailabs NavX Library — IMU library for the NAVX Gyros.
 
 ### Tools & Software
 
@@ -29,9 +28,9 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 
 ### Hardware & Controllers
 
-- Talon SRX / Talon FX (Falcon) - Motor controllers commonly used in FRC; support closed-loop control on the device.
-- Spark / Spark MAX - Motor controllers from REV, supporting brushless motors and onboard closed-loop control.
-- PCM (Pneumatic Control Module) - Controls solenoids for pneumatics via CAN.
+- Talon FX/FXS — Motor controllers commonly used in FRC; support closed-loop control on the device. Note that Kraken X44/X66 and Falcon 500 motors use Talon FX motor controllers, while the Talon FXS is used standalone from a motor like the CTRE Minion.
+- Spark MAX/Spark Lite — Motor controllers from REV, supporting brushed/brushless motors and onboard closed-loop control.
+- PCM (Pneumatic Control Module) — Controls solenoids for pneumatics via CAN.
 
 ### Control Concepts
 
@@ -39,7 +38,7 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 - Iterative robot - A loop-based structure that runs periodic methods each robot cycle.
 - Feedforward vs Feedback:
 	- Feedforward - Predictive control using a mathematical model (for example, kV, kS, and kA) to calculate motor outputs.
-	- PID - A closed-loop control strategy that uses a feedback sensor and a setpoint to gain precise, repeatable control of mechanisms.
+	- PID - A closed-loop control strategy that uses a feedback sensor and a setpoint to gain precise, repeatable control of mechanisms. Stands for Proportional-Integral-Derivative.
 	- PIDF - PID with added feedforward terms.
 
 ### Sensors & Perception
@@ -49,6 +48,9 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 	#### Types of encoders
 
 	- Relative encoders (incremental, quadrature) - Many modern brushless motors include a relative encoder integrated into the motor or controller. Relative encoders require no additional hardware but lose absolute position across power cycles; teams commonly re-zero them on startup with a homing routine, limit switch, or absolute reference.
+	!!! tip "A note about the KitBot"
+        By default, the stock KitBot drivetrain utilizes brushed CIM motors, which do **NOT** include relitive encoders. If you are looking into doing odometry and running a path generation tool you will have to swap the motors out for another CIM class brushless motor (like Neos), or install an external encoder.
+
 	- Absolute encoders - Provide an absolute position value (angle) on power-up. Useful when the exact shaft angle is required after restart. Examples include CTRE's [CANCoder](https://store.ctr-electronics.com/cancoder) and REV's [Through-Bore Encoder](https://www.revrobotics.com/rev-11-1162/). Absolute encoders often use magnetic or optical sensing to preserve position across power cycles.
 
 	#### Other sensor related terms
@@ -59,8 +61,8 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 
 - IMU (Inertial Measurement Unit) - Provides orientation (yaw, pitch, roll) as well as acceleration.
 - Vision systems:
-	- Limelight - An out of the box proprietary vision solution, single camera. It is included on the Systemcore firmware.
-	- PhotonVision - An open-source vision tool, can use multiple cameras for less overhead cost. More options for custimization. 
+	- Limelight - An out of the box proprietary vision solution, single camera. It will be included on the Systemcore firmware.
+	- PhotonVision - An open-source vision tool, can use multiple cameras for less overhead cost. More options for customization, but needs a co-processor. 
 
 ### Networking & Telemetry
 
