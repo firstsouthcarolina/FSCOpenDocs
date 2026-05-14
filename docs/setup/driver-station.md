@@ -20,7 +20,7 @@ Here is the checklist for a reliable, bulletproof competition laptop:
 ### 2. The Operating System
 While Windows 11 is the standard, many FRC laptops are older, low-spec machines. 
 !!! tip "Consider Tiny11"
-    Many top teams use **Tiny11** (a stripped-down, debloated version of Windows 11). It removes background telemetry, Xbox Game Bar, OneDrive, and Cortana, freeing up CPU and RAM so your dashboards never lag. It also lets you use windows without a online account.
+    Many top teams use **Tiny11** for their competition laptop. It removes background telemetry, Xbox Game Bar, OneDrive, and Cortana, freeing up CPU and RAM so your dashboards never lag. It also lets you use windows without a online account.
 
 ### 3. The Software Stack
 Install **only** what you need to run the robot and diagnose issues in the pit. Do not install Discord, Steam, or personal files.
