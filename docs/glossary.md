@@ -6,9 +6,9 @@ icon: lucide/book
 
 This glossary covers common terms, libraries, tools, and concepts used in FIRST Robotics Competition (FRC) software development. If you ever wonder what an acronym or fancy tool is, this is the place to find out!
 
-
 ### Acronyms
 
+<a id="wpilib-official-definition"></a>
 - WPILib (Official definition) —  The WPI Robotics Library (WPILib) is the standard software library provided for teams to write code for their FRC® robots. WPILib contains a set of useful classes and subroutines for interfacing with various parts of the FRC control system (such as sensors, motor controllers, and the driver station), as well as an assortment of other utility functions.
 
 

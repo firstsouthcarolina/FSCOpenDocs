@@ -25,7 +25,7 @@ WPILib provides the foundation, but to update firmware, tune PID values, and con
     
     ---
     
-    Used for all **TalonFX (Krakens/Falcons)**, **CANcoders**, and **Pigeon 2.0**.
+    Used for all **Talon FX (Krakens/Falcons)**, **CANCoder**, and **Pigeon 2.0**.
     
     * **OS:** Windows (Microsoft Store), Android, iOS
     * **Key Feature:** Includes the Swerve Generator and advanced signal logging.
@@ -109,4 +109,4 @@ Before you can use a Coprocessor (like an Orange Pi, Rubik Pi, or Limelight), yo
 *   **[dfu-util](https://dfu-util.sourceforge.net/):** An advanced command-line tool for Linux/macOS users to flash Spark MAX controllers in DFU mode without using the REV Hardware Client.
 
 !!! danger "How to use `dfu-util`"
-    If you put the Spark Max/Flex into recovery mode, you can use `sudo dfu-util -a 0 -D SparkMax-[version]-[hash].dfu` in the terminal (if it is installed) to flash the device.
+    If you put the Spark MAX/Flex into recovery mode, you can use `sudo dfu-util -a 0 -D SparkMAX-[version]-[hash].dfu` in the terminal (if it is installed) to flash the device.
