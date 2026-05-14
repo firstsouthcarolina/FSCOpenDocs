@@ -38,3 +38,5 @@
 *[SystemCore]: The new 2027 robot controller will be powered by a Rasberry Pi 5 compute module chip, it will also be shared between FTC and FRC for one larger ecosystem. We do not know much yet so most of these docs contain documentation for the RoboRio system, but we do not expect major changes that make this info obsolete yet.
 *[Axis / joystick mapping]: The mapping of gamepad or joystick axes and buttons to robot controls.
 *[Deadband]: A small threshold applied to joystick input to ignore small noise when the joystick is near center.
+
+*[Tiny11]: A stripped-down, debloated version of Windows 11. Used by top teams for a driver station OS to eleminate failure points with a simple system.

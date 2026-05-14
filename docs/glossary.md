@@ -25,6 +25,7 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 
 - Driver Station - The official app used during competition or testing to enable the robot, run programs, and view logs.
 - Elastic / Advantagescope - Dashboard tools for telemetry, debugging, and operator interfaces.
+- Tiny11 - A stripped-down, debloated version of Windows 11. Used by top teams for a driver station OS to eleminate failure points with a simple system.
 
 ### Hardware & Controllers
 
@@ -85,3 +86,4 @@ This glossary covers common terms, libraries, tools, and concepts used in FIRST 
 
 - Axis / joystick mapping - The mapping of gamepad or joystick axes and buttons to robot controls.
 - Deadband - A small threshold applied to joystick input to ignore small noise when the joystick is near center.
+
